@@ -1,0 +1,45 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: internship 1
+  steps:
+  - intent: greet
+  - action: utter_greet_how_may_i_help_you
+  - intent: internship_query
+  - action: utter_internship_q_a
+  - intent: comp_name
+  - action: utter_comp_name
+  - intent: job_query
+  - action: utter_job_q_a
+  - intent: application_query
+  - action: utter_application_q_a
+  - intent: thank_you
+  - action: utter_welcome
