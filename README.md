@@ -4,6 +4,16 @@ Chat Bot using RASA | [Web Link](https://rasa.com/docs/) |  [Github Link](https:
 
 Rasa is a chatbot framework for voice or text conversation. It is open source. This framework learns using machine learning and can be an automated assistant for many task and on many platforms!
 
+## Contents:
+- [Setting up the environment](#setting-up-the-environment)
+  * [[Optional] Setting Up a Virtual Environment](#optional-setting-up-a-virtual-environment)
+- [Installing RASA](#installing-rasa)
+- [Initializing RASA](#initializing-rasa)
+- [Training](#training)
+  * [Customizing Training Data:](#customizing-training-data)
+- [Chat](#chat)
+- [Example: Trained on Custom Data](#example-trained-on-custom-data)
+
 
 
 ## Setting up the environment
