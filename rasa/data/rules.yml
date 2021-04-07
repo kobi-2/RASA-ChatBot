@@ -1,0 +1,33 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Say utter_welcome anytime the user thanks
+  steps:
+  - intent: thank_you
+  - action: utter_welcome
+
+- rule: Say utter_job_q_a anytime the user queries for job
+  steps:
+  - intent: job_query
+  - action: utter_job_q_a
+
+- rule: Say utter_comp_name anytime the user queries for the comp_name
+  steps:
+  - intent: comp_name
+  - action: utter_comp_name
+
+- rule: Say utter_application_q_a anytime the user queries for application
+  steps:
+  - intent: application_query
+  - action: utter_application_q_a
