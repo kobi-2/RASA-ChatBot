@@ -165,30 +165,30 @@ Custom scenario:
 In this GitHub repo, [RASA-ChatBot](https://github.com/kobi-2/RASA-ChatBot), we created a custom RASA Chat Bot Data. It acts as a helpdesk for applying to an internship.
 
 
-
+```
 An example of the conversation:
 
-\- Hi 
+- Hi 
 
 RASA: Hey, how may I help you?
 
-\- Do you have any internship? 
+- Do you have any internship? 
 
 RASA: yes
 
-\- what company is it? 
+- what company is it? 
 
 RASA: ABC company limited.
 
-\- What is the job?
+- What is the job?
 
 RASA: you will be learning and helping to implement various ML tasks in practical real life scenarios.
 
-\- How can I apply? 
+- How can I apply? 
 
 RASA: you can send your cv at hr@abc.com. Upon that, you will be asked to complete an online form with some simple technical tasks, followed by an interview and another task. That is all! 
 
-
+```
 
 For this, we changed in 4 files: 
 
