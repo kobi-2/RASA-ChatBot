@@ -10,7 +10,7 @@ Rasa is a chatbot framework for voice or text conversation. It is open source. T
 - [Installing RASA](#installing-rasa)
 - [Initializing RASA](#initializing-rasa)
 - [Training](#training)
-  * [Customizing Training Data:](#customizing-training-data)
+  * [Customizing Training Data](#customizing-training-data)
 - [Chat](#chat)
 - [Example: Trained on Custom Data](#example-trained-on-custom-data)
 
@@ -134,7 +134,7 @@ To train a model:
 
 
 
-### Customizing Training Data:
+### Customizing Training Data
 
 There are 3 important files, that need to be modified if we want create a custom RASA Chat Bot or an Assistant:
 
@@ -146,7 +146,7 @@ There are 3 important files, that need to be modified if we want create a custom
 
 There is another file (in /data/ directory) called **rules.yml**, which specifies rules to follow the conversation path no matter what the previous conversation was, such as, the assistant will say goodbye every time the user says goodbye. 
 
-
+We have created a custom scenario in this chatbot and data for that. The details are in [this section](#customizing-training-data)
 
 ## Chat
 
