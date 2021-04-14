@@ -192,13 +192,18 @@ RASA: you can send your cv at hr@abc.com. Upon that, you will be asked to comple
 
 For this, we changed in 4 files: 
 
-1. nlu.yml [[github link](https://github.com/kobi-2/RASA-ChatBot/blob/main/rasa/data/nlu.yml)]
+1. nlu.yml [[github link](https://github.com/kobi-2/RASA-ChatBot/blob/main/rasa/data/nlu.yml)]  <br>
+   changes made in this file: added [these lines](https://github.com/kobi-2/RASA-ChatBot/blob/6520baa18f9ecea4faa66108e085cbb8080820d5/rasa/data/nlu.yml#L101-L142)
 
-2. domain.yml [[github link](https://github.com/kobi-2/RASA-ChatBot/blob/main/rasa/domain.yml)]
+2. domain.yml [[github link](https://github.com/kobi-2/RASA-ChatBot/blob/main/rasa/domain.yml)] <br>
+   changes made in this file: added [these lines](https://github.com/kobi-2/RASA-ChatBot/blob/6520baa18f9ecea4faa66108e085cbb8080820d5/rasa/domain.yml#L12-L15) and [these lines](https://github.com/kobi-2/RASA-ChatBot/blob/6520baa18f9ecea4faa66108e085cbb8080820d5/rasa/domain.yml#L43-L56)
 
-3. stories.yml [[github link](https://github.com/kobi-2/RASA-ChatBot/blob/main/rasa/data/stories.yml)]
+3. stories.yml [[github link](https://github.com/kobi-2/RASA-ChatBot/blob/main/rasa/data/stories.yml)] <br>
+   changes made in this file: added [these lines](https://github.com/kobi-2/RASA-ChatBot/blob/6520baa18f9ecea4faa66108e085cbb8080820d5/rasa/data/stories.yml#L32-L45)
 
-4. rules.yml [[github link](https://github.com/kobi-2/RASA-ChatBot/blob/main/rasa/data/rules.yml)]
+4. rules.yml [[github link](https://github.com/kobi-2/RASA-ChatBot/blob/main/rasa/data/rules.yml)] <br>
+   changes made in this file: added [these line](https://github.com/kobi-2/RASA-ChatBot/blob/6520baa18f9ecea4faa66108e085cbb8080820d5/rasa/data/rules.yml#L15-L33)
+
 
 
 
