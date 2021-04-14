@@ -98,7 +98,7 @@ Prompt 3: if we would like to start the chat now
 
 We can manually put input to each prompt as they come along when running the above command.
 
-However, to simplify, we can provide the answers right away in the command line with that command by pipelining:
+However, to simplify, we can provide the answers right away in the command line with that command by piping: 
 
 ```
 !printf '\nN\n' | python -m rasa init
