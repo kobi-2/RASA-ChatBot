@@ -146,7 +146,7 @@ There are 3 important files, that need to be modified if we want create a custom
 
 There is another file (in /data/ directory) called **rules.yml**, which specifies rules to follow the conversation path no matter what the previous conversation was, such as, the assistant will say goodbye every time the user says goodbye. 
 
-We have created a custom scenario in this chatbot and data for that. The details are in [this section](#customizing-training-data)
+We have created a custom scenario in this chatbot and data for that. The details are in [this section](#example-trained-on-custom-data).
 
 ## Chat
 
